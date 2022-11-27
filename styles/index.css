@@ -1,0 +1,136 @@
+@font-face {
+    font-family: websiteFont;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: websiteFontBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+#header-main {
+    text-align: center;
+}
+
+#header-main img {
+    width: 30%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#pure-health-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: websiteFontBold, serif;
+    font-size: xxx-large;
+}
+
+#header-main {
+    padding-top: 10%;
+    top: 0;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));
+    overflow: hidden;
+    color: white;
+    font-family: websiteFont;
+}
+
+
+
+#header-contact-us {
+    background-color: #096ba4;
+    border-radius: 30px;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+#header-contact-us:hover {
+    box-shadow: 0px 0px 40px 10px #009efb;
+    width: 25%;
+}
+
+#header-main span {
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 12vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 20;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+
+}
+
+#offers img {
+    width: 30%;
+    height: auto;
+}
+
+.text-right {
+    width: 50%;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.text-left {
+    width: 50%;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.image-left {
+    margin-left: auto;
+}
+
+.image-right {
+    margin-left: auto;
+    display: block;
+}
+
+.view-person {
+    background-color: #096ba4;
+    border-radius: 100px;
+    box-shadow: rgb(0, 158, 251) 0 -25px 18px -14px inset, rgba(9, 107, 164, 0.73) 0 1px 2px, rgb(9, 107, 164) 0 2px 4px, rgb(0, 158, 251) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.view-person:hover {
+    box-shadow: rgb(0, 158, 251) 0 -25px 18px -14px inset, rgba(9, 107, 164, 0.73) 0 1px 2px, rgb(9, 107, 164) 0 2px 4px, rgb(0, 158, 251) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.button-left {
+    width: 25%;
+    margin-left: auto;
+    display: block;
+}
+
+.button-right {
+    width: 25%;
+    margin-right: auto;
+    display: block;
+}
